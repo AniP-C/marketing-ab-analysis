@@ -12,18 +12,6 @@ This project demonstrates how to apply **A/B testing** and hypothesis testing in
 - Python (pandas, numpy, scipy, matplotlib, seaborn)
 - Jupyter Notebook (`marketing_ab_analysis.ipynb`)
 
----
-
-## 📂 Dataset
-The `marketing_AB.csv` dataset simulates user behavior in a marketing campaign, with columns like:
-- `user id` – unique customer ID
-- `test group` (renamed to `group`) – 'ad' (treatment) or 'psa' (control)
-- `converted` – 1 if the user converted (purchase/click), 0 otherwise
-- `total ads` – total ads seen by the user
-- `most ads day` – day of the week when most ads were seen
-- `most ads hour` – hour of the day when most ads were seen
-
----
 
 ## 🔑 Steps Performed (in `marketing_ab_analysis.ipynb`)
 1. **Data Loading and Preprocessing**
